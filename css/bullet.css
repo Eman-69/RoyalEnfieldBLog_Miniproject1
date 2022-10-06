@@ -1,0 +1,306 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+body
+{
+	font-family: Agency FB,sans-serif;
+	background: black;
+	color: white;
+	overflow-x: hidden;
+}
+.bg-pg-bullet
+{
+	background: url(../img/bullet350t.jpg);
+	height: 580px;
+	background-size: 100%;
+	color: white;
+}
+.bg-pg-classic
+{
+	background: url(../img/classic350t.jpg);
+	height: 580px;
+	background-size: 100%;
+	color: white;
+}
+.bg-pg-meteor
+{
+	background: url(../img/meteor350t.jpg);
+	height: 780px;
+	background-size: 100%;
+	color: white;
+}
+.bg-pg-hunter
+{
+	background: url(../img/hunter350r.jpg);
+	height: 660px;
+	background-size: 100%;
+	color: white;	
+}
+.bg-pg-continentalgt
+{
+	background: url(../img/continentalgt650t.jpg);
+	height: 620px;
+	background-size: 100%;
+	color: white;	
+}
+.bg-pg-interceptor
+{
+	background: url(../img/interceptor650t.png);
+	height: 620px;
+	background-size: 100%;
+	color: white;
+}
+.bg-pg-scram
+{
+	background: url(../img/scram411t.jpg);
+	height: 720px;
+	background-size: 100%;
+	background-position: bottom;
+	color: white;
+}
+.bg-pg-himalayan
+{
+	background: url(../img/himalayan411t.jpg);
+	height: 720px;
+	background-size: 100%;
+	background-position: bottom;
+	color: white;
+}
+.bg-title
+{
+	background: rgba(0, 0, 0, 0.75);
+	height: 100px;
+	border-radius: 0px 0px 20px 20px;
+}
+.bg-pg img
+{
+	padding: 10px;
+	height: 80px;
+}
+.logo
+{
+	float: left;
+}
+.bikelogo
+{
+	position: absolute;
+	right: 680px;
+}
+.bikelogo img
+{
+	height: 80px;
+}
+
+
+.bg-des
+{
+	line-height: 50px;
+	font-size: 25px;
+	text-align: center;
+	text-shadow: 2px 2px 2px black;
+}
+.bg-des-bullet
+{
+	position: absolute;
+	top: 200px;
+	left: 80px;
+}
+.bg-des-classic
+{
+	position: absolute;
+	top: 200px;
+	right: 80px;
+}
+.bg-des-meteor
+{
+	position: absolute;
+	top: 100px;
+	left: 50px;
+}
+.bg-des-hunter
+{
+	position: absolute;
+	top: 250px;
+	right: 30px;
+
+}
+.bg-des-continentalgt
+{
+	position: absolute;
+	top: 240px;
+	left: 60px;
+}
+.bg-des-interceptor
+{
+	position: absolute;
+	top: 240px;
+	left: 60px;	
+}
+.bg-des-scram
+{
+	position: absolute;
+	top: 160px;
+	right: 0px;	
+}
+.bg-des-himalayan
+{
+	position: absolute;
+	top: 160px;
+	left: 100px;	
+}
+.bg-des h1
+{
+	line-height: 100px;
+	margin: 0px 20px;
+}
+.bg-des hr
+{
+	width: 90%;
+	margin: 0px 5%;
+}
+.bg-pg2-bullet
+{
+	background: url(../img/bullet350e.jpg);
+	height: 580px;
+	background-size: 100%;
+	color: white;
+}
+.bg-pg2-hunter
+{
+	background: url(../img/hunter350t.jpg);
+	height: 640px;
+	background-size: 100%;
+	color: white;
+	background-position: bottom;
+}
+.bg-des2
+{
+	line-height: 50px;
+	font-size: 25px;
+	text-shadow: 2px 2px 2px black;
+
+}
+.bg-des2-bullet
+{
+	position: absolute;
+	top: 780px;
+	right: 30px;
+	text-align: center;
+}
+.bg-des2-hunter
+{
+	position: absolute;
+	top: 740px;
+	left: 60px;
+	text-align: center;
+
+}
+.bg-des2 h1
+{
+	line-height: 100px;
+	margin: 0px 20px;
+}
+.bg-des2 hr
+{
+	width: 90%;
+	margin: 0px 5%;
+}
+.colours
+{
+	overflow:hidden;
+	color: black;
+}
+.colours-bullet
+{
+	background: peachpuff;
+}
+.colours-classic
+{
+	background: linear-gradient(to bottom,silver,darkgrey);
+}
+.colours-meteor
+{
+	background: linear-gradient(to bottom,silver,#6e6e6e);
+}
+.colours-hunter
+{
+	background: linear-gradient(to bottom,darkgrey,#5e5e5e);
+}
+.colours-continentalgt
+{
+	background: linear-gradient(to bottom,#8b796b,#edc894);
+}
+.colours-interceptor
+{
+	background: linear-gradient(to bottom,#836958,#f0bb91);
+}
+.colours-scram
+{
+	color: white;
+	background: #33545b;
+}
+.colours-himalayan
+{
+	color: #6d6d6d;
+	background: #e4eaf6;
+}
+
+.colours table
+{
+	width: 100%;
+	text-align: center;
+	border-spacing: 40px;
+	text-shadow: 2px 2px 2px black;
+}
+#coloursmain
+{
+	font-size: 50px;
+	font-weight: bold;
+	text-align: left;
+
+}
+.colourstitle
+{
+ 	padding-top: 20px;
+
+	font-size: 35px;
+	font-family: Agency FB;
+	text-shadow: 1px 1px 1px black;
+
+}
+.coloursbike img
+{
+	width: 400px;
+	cursor: zoom-in;
+	transition: 0.25s;
+}
+.colours-himalayan img
+{
+	width: 325px;
+}
+.coloursbike img:hover
+{
+	transform: scale(1.5);
+}
+.coloursbike
+{
+	margin-bottom: 30px;
+
+}
+.coloursbike h2
+{
+	text-shadow: 1px 1px 1px black;
+}
+.colours hr
+{
+	width: 90%;
+	margin: 0px 5%;
+	height: 3px;
+	background: #454545 ;
+	border: solid #454545;
+	border-radius: 100px;
+	box-shadow: 2px 2px 2px black;
+}
+

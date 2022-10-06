@@ -1,0 +1,67 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: Agency FB;
+}
+body
+{
+	background-color:black;
+}
+.tabdiv
+{
+	
+	/*background: rgba(67, 91, 15, 0.8);*/
+	padding: 20px;
+	background: rgba(0, 0, 0, 0.8);
+	border-radius: 0px 0px 10px 10px;
+	height: 80px;
+	font-size: 20px;
+}
+.tabdiv img
+{
+	height:  80px;
+}
+.main
+{
+	background-image: url("../img/bg.jpg");
+	background-position: center;
+
+	background-size: 100%;
+	height: 750px;
+	background-repeat: no-repeat;
+}
+.maintable{
+	margin: 30px 50px;
+	width: 33%;
+	background-color: rgba(0, 0, 0, 0.6);
+	border: 5px 0px 0px 5px black;
+	box-shadow: 2px 2px 2px 2px black;
+	border-radius: 5px;
+}
+table
+{
+	line-height: 50px;
+	padding: 50px;
+	margin: 1px 20px;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+}
+input
+{
+	padding: 2px 5px;
+}
+#address
+{
+	height: 50px;
+}
+button
+{
+	margin: 50px 0px 20px;
+	padding: 10px 30px;
+	font-weight: bold;
+	background: rgba(0, 0, 0, 0.5);
+	color: lightgrey;
+}

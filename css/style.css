@@ -1,0 +1,410 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+a
+{
+	text-decoration: none;
+}
+.mainbody
+{
+	font-family: Arial,sans-serif;
+	background: black;
+	color: white;
+	overflow-x: hidden;
+}
+
+.bg-pgindex
+{
+	background: url(../img/main.jpg);
+	height: 800px;
+	background-size: 100% 110%;
+	background-position: center;
+
+	color: white;
+}
+.tabdiv
+{
+	text-decoration: none;
+	/*background: rgba(67, 91, 15, 0.8);*/
+	padding: 20px 0px;
+	background: rgba(0, 0, 0, 0.8);
+	border-radius: 0px 0px 10px 10px;
+	height: 100px;
+	font-size: 20px;
+}
+.tabspan
+{
+	margin:0px 10px 30px;
+	padding: 5px 0px 20px;
+
+}
+.tabs
+{
+	font-family: Agency FB;
+	border-radius: 4px;
+	text-decoration: none;
+	text-shadow: 2px 2px 2px black;
+	color: inherit;
+	padding: 10px 20px;
+	font-weight: bold;
+
+}
+.tabspan a:hover
+{
+	background: black;
+	cursor: pointer;
+
+
+}
+.logout
+{
+	padding: 15px 30px;
+	border-radius: 5px;
+	float: right;
+	margin-right: 50px;
+	margin-top: 50px;
+	background-color: #8e8d77;
+	border-radius: 10px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: Agency FB,sans-serif;
+	border: 1px double white;
+	cursor: pointer;
+}
+.logout:hover,.logout:active
+{
+	color:#8e8d77;
+	background: rgba(0, 0, 0, 0.8);
+}
+#loginbutton
+{
+	width: 100%;
+	text-align: center;
+	margin-right: 30px;
+	margin-top: 30px;
+}
+#loginbutton button
+{
+	font-family: Raleway,sans-serif;
+	border: 1px double white;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+	padding: 15px 30px;
+	background-color: #8e8d77;
+	border-radius: 10px;
+
+}
+#loginbutton button:hover,#loginbutton button:active
+{
+	background: inherit;
+
+}
+.popup
+{
+	z-index: +1;
+	position: absolute;
+	line-height: 30px;
+
+	background: rgba(0, 0, 0, 0.9);
+	width: 380px;
+	height: 480px;
+	top: -150%;
+	left: 50%;
+	opacity: 0;
+	transform: translate(-50%,-50%) scale(1.25);
+	box-sizing: border-box;
+	border-radius: 20px;
+	box-shadow: 2px 2px 2px black;
+	transition: top 0ms ease-in-out 200ms,
+				opacity 200ms ease-in-out 0ms,
+				transform 200ms ease-in-out 0ms;
+
+}
+.popup.active
+{
+	top: 50%;
+	left: 50%;
+	opacity: 1;
+	transform: translate(-50%,-50%) scale(1);
+	transition: top 0ms ease-in-out 0ms,
+				opacity 200ms ease-in-out 0ms, 
+				transform 200ms ease-in-out 0ms;
+
+}
+.logintitle
+{
+	text-align: center;
+	padding-top: 100px;
+	font-size: 30px;
+	font-weight: bold;
+}
+.popup > div
+{
+	color: white;
+font-family: 'Merriweather', serif;
+	text-shadow: 1px 1px black;
+}
+.closebtn
+{
+	line-height: 0px;
+	float: right;
+	margin: 20px 15px;
+	font-size: 30px;
+	font-weight: bold;
+	transform: translate(-50%,-50%) scale(1.25);
+	cursor: pointer;
+
+}
+.loginform
+{
+	font-family: Raleway,sans-serif;
+	padding: 20px 40px 0px;
+}
+.loginform [type="email"],.loginform [type="password"]
+{
+	outline: none;
+	border: 1px solid #aaa;
+	padding: 5px 3px;
+	border-radius: 2px;
+	background: whitesmoke;
+
+}
+.loginform [type="checkbox"]
+{
+	cursor: pointer;
+}
+.signinbtn
+{
+	outline: none;
+	color: white;
+	background: rgba(141, 142, 119, 0.99);
+	padding: 8px;
+	position: absolute;
+	top: 300px;
+	width: 300px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.or
+{
+	position: absolute;
+	top: 350px;
+	left: 45%;
+}
+.signupbtn
+{
+	outline: none;
+	color: white;
+	background: rgba(141, 142, 119, 0.99);
+	padding: 8px;
+	position: absolute;
+	top: 390px;
+	width: 300px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.signupbtn:hover,.signinbtn:hover
+{
+	background: rgba(0, 0, 0, 0.8);
+	border: 1px solid white;
+}
+
+
+
+.bg-desinit
+{
+	
+	margin-top: 200px;
+	text-align: center;
+}
+.bg-desindex
+{
+	position: absolute;
+	top: 200px;
+	left: 520px;
+	text-align: center;
+
+}
+.bg-pgindex img
+{
+	padding: 0px 30px;
+	height: 80px;
+
+}
+.title
+{
+	font-family: Agency FB;
+	width: 100%;
+	text-align: center;
+	margin: 10px 45px;
+	font-size: 4em;
+	text-shadow: 5px 5px 5px black;
+}
+
+.content
+{
+	position: absolute;
+	top: 500px;
+	text-align: center;
+	width: 70%;
+	margin: 0px 15%;
+	padding: 25px 10px;
+	height: 300px;
+	background: rgba(0, 0, 0, 0.7);
+	border-radius: 20px;
+	overflow: hidden;
+}
+.content *
+{
+	margin: 10px;
+}
+.content p
+{
+	line-height: 30px;
+	font-size: 20px;
+}
+#motorcycles
+{
+
+	text-align: center;
+	background: url("../img/main2.jpg");
+	background-size: 120%;
+	background-position: center;
+}
+.mototitle
+{
+	padding-top: 100px;
+	text-align: center;
+	font-size: 50px;
+	font-family: Agency FB;
+	font-weight:bold;
+	text-shadow: 1px 1px 1px black;
+}
+.motorcyclestable
+{
+	width: 80%;
+	margin: 30px 6% 0px;
+	border-spacing: 50px;
+	font-size: 18px;
+}
+.motorcyclestable td
+{
+	border-radius: 20px;
+	box-shadow: 2px 2px 2px black;
+	cursor: zoom-in;
+	transition: 0.5s;
+	background: rgba(0, 0, 0, 0.8);
+}
+.motorcyclestable td:hover
+{
+	transform: scale(1.2);
+}
+.motorcyclestable a
+{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+.motorcyclestable img
+{
+	width: 400px;
+	border-radius: 20px;
+}
+.mainbody hr
+{
+	width: 90%;
+	margin: 0px 5%;
+	height: 3px;
+	background: #454545 ;
+	border: solid #454545;
+	border-radius: 100px;
+	box-shadow: 2px 2px 2px black;
+}
+.misctable
+{
+	width: 80%;
+	margin: 0px 10%;
+	padding: 80px;
+	border-spacing: 10px;
+	font-size: 18px;
+}
+.misctable td
+{
+	height: 350px;
+	width: 40%;
+	font-family: Agency FB;
+	background-size: 100%;
+	background-position: center;
+	border-radius: 8px;
+}
+.misctable div
+{
+	padding-right: 30px;
+	width: 100%;
+	height: 100%;
+	text-shadow: 2px 2px 2px black;
+}
+
+.misctable a
+{
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+
+}
+.misctable h1
+{
+	padding-top:30px;
+	padding-left: 30px;
+	text-align: left;
+	width: 100%;
+}
+.misctable p
+{
+	padding-top: 200px;
+	float: right;
+	width: 75%;
+}
+.enddiv
+{
+	background: #242424;
+	font-family: 'Merriweather', serif;
+	padding: 30px 50px;
+	height: 240px;
+
+}
+.enddiv td
+{
+	transition: 0.5s;
+	cursor: pointer;
+	text-shadow: 2px 2px 2px darkgray;
+}
+.enddiv td:hover
+{
+	transform: scale(1.2);
+}
+.enddiv a
+{
+	text-decoration: none;
+	color: white;
+}
+.footermotorcycles
+{
+	font-weight: bold;
+}
+.footer1
+{
+	font-size: 30px;
+	float: left;
+	border-spacing: 20px;
+}
+.footer2
+{
+	border-spacing: 20px;
+	font-size: 20px;
+	float: right;
+}

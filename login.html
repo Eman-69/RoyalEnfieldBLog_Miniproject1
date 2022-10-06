@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>login</title>
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+<body>
+
+	<div id="loginbutton"><button>Login</button></div>
+	<div class="popup">
+		<div class="closebtn">&times;</div>
+		<div class="logintitle">Log in</div>
+		<form class="loginform">
+			<table>
+				<tr>
+					<td>E-mail</td>
+					<td>:</td>
+					<td><input type="email" name="email" placeholder="E-mail" required></td>
+				</tr>
+				<tr>
+					<td>Password</td>
+					<td>:</td>
+					<td><input type="password" name="password" placeholder="Password" required></td>
+				</tr>
+				<tr>
+					<td><input type="checkbox" name="rememberme"><label for="rememberme">Remember me</label></td>
+					<td>&nbsp</td>
+					<td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="">forgot password?</a></td>
+				</tr>
+				<tr><td><button class="signinbtn">Sign-in</button></td></tr>
+			</table>
+		</form>
+	</div>
+	<script type="text/javascript">
+		document.querySelector("#loginbutton").addEventListener("click",function(){
+			document.querySelector(".popup").classList.add("active");
+		});
+		document.querySelector(".closebtn").addEventListener("click",function(){
+			document.querySelector(".popup").classList.remove("active");
+		});
+	</script>
+</body>
+</html>

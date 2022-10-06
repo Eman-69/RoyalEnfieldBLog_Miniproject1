@@ -1,0 +1,82 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body
+{
+	background: skyblue;
+
+}
+.popup
+{
+		font-family: Ruleway,sans-serif;
+	position: absolute;
+	line-height: 30px;
+	background: white;
+	width: 400px;
+	height: 400px;
+	top: -150%;
+	left: 50%;
+	opacity: 0;
+	transform: translate(-50%,-50%) scale(1.25);
+	box-sizing: border-box;
+	border-radius: 20px;
+	box-shadow: 2px 2px 2px black;
+	transition: top 0ms ease-in-out 200ms,
+				opacity 200ms ease-in-out 0ms,
+				transform 200ms ease-in-out 0ms;
+
+}
+.popup.active
+{
+	top: 50%;
+	left: 50%;
+	opacity: 1;
+	transform: translate(-50%,-50%) scale(1);
+	transition: top 0ms ease-in-out 0ms,
+				opacity 200ms ease-in-out 0ms, 
+				transform 20ms ease-in-out 0ms;
+
+}
+.logintitle
+{
+	text-align: center;
+	padding-top: 100px;
+	font-size: 30px;
+	font-weight: bold;
+}
+.closebtn
+{
+	line-height: 0px;
+	float: right;
+	margin: 20px 15px;
+	font-size: 30px;
+	font-weight: bold;
+	transform: translate(-50%,-50%) scale(1.25);
+	cursor: pointer;
+
+}
+.loginform
+{
+	font-family: Raleway,sans-serif;
+	padding: 20px 50px 0px;
+}
+.loginform [type="email"],.loginform [type="password"]
+{
+	outline: none;
+	border: 1px solid #aaa;
+	padding: 5px 3px;
+	border-radius: 2px;
+
+}
+.signinbtn
+{
+	outline: none;
+	color: white;
+	background: rgba(0, 0, 0, 0.8);
+	padding: 8px;
+	position: absolute;
+	top: 300px;
+	width: 300px;
+	border-radius: 3px;
+}
